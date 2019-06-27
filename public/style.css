@@ -1,0 +1,353 @@
+body{
+    background-color:  #864C2D;
+    color: grey;
+    font-size: 28px;
+    padding-top:20px;
+    word-wrap:break-word;
+    font-family: 'Cabin Sketch', cursive;
+}
+.div1{
+    background-image: url("media/coffee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+input{
+    font-size: 25px;
+    color: grey;
+    padding-left: 2%;
+}
+
+.wrapper {
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.5);
+    width 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr 4fr 0.25fr;
+    grid-template-rows: 0.1fr 0.2fr 0.1fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 2 / 2 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div2 {
+    grid-area: 1 / 9 / 2 / 10;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div2 p{
+    text-align: center;
+}
+.div2 a {
+    padding: 1%;
+    background-color: rgba(126,66,42, 0.5);
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+.div3 {
+    grid-area: 2 / 2 / 3 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    /* height: 60px; */
+    text-align: center;
+    border-radius: 20px;
+}
+.div4 {
+    grid-area: 3 / 2 / 4 / 3;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.div5 {
+    grid-area: 3 / 6 / 4 / 7;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.div6 {
+    grid-area: 4 / 2 / 5 / 3;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div7 {
+    grid-area: 4 / 3 / 5 / 4;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div8 {
+    grid-area: 4 / 4 / 5 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div9 {
+    grid-area: 5 / 2 / 6 / 3;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div10 {
+    grid-area: 5 / 3 / 6 / 4;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div11 {
+    grid-area: 5 / 4 / 6 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div12 {
+    grid-area: 6 / 2 / 7 / 3;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div13 {
+    grid-area: 6 / 3 / 7 / 4;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div14 {
+    grid-area: 6 / 4 / 7 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div15 {
+    grid-area: 7 / 2 / 8 / 3;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div16 {
+    grid-area: 7 / 3 / 8 / 4;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div17 {
+    grid-area: 7 / 4 / 8 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div18 {
+    grid-area: 4 / 6 / 5 / 7;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div19 {
+    grid-area: 4 / 7 / 5 / 8;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div20 {
+    grid-area: 5 / 6 / 6 / 7;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div21 {
+    grid-area: 5 / 7 / 6 / 8;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div22 {
+    grid-area: 6 / 6 / 7 / 7;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div23 {
+    grid-area: 6 / 7 / 7 / 8;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div24 {
+    grid-area: 7 / 6 / 8 / 7;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div25 {
+    grid-area: 2 / 9 / 8 / 10;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    padding: 2%;
+    border-radius: 20px;
+}
+.div25 p {
+    margin-left: 2%;
+}
+.div26 {
+    grid-area: 9 / 2 / 10 / 5;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div27 {
+    grid-area: 9 / 5 / 10 / 9;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+.div28 {
+    grid-area: 9 / 9 / 10 / 10;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+}
+
+
+.btn{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+
+.btn:hover {
+    font-size: 20px;
+    color: black;
+    border: 2px solid orange;
+    background-color: #f5c043;
+}
+
+.btn:visited{
+    color: darkred;
+}
+
+.submit{
+    font-size: 24px;
+}
+
+.submit:hover{
+    background-color: lightgreen;
+    color: black;
+    font-size: 28px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+/* LOGIN/SIGN UP STYLES */
+
+
+/* background color */
+/* background-color:  #864C2D; */
+
+/* wrapper */
+/* background-color: rgba(255,255,255,0.5); */
+
+/* other btns */
+/*  */
+
+/* login/out btns */
+/*  background-color: rgba(126,66,42, 0.5);  */
+
+.block{
+    margin-top: 100px;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+}
+
+.block a{
+    font-size: 28px;
+    color: black;
+    /* border: 2px solid orange; */
+    background-color: white;
+}
+
+.block a:hover {
+    background-color: orange;
+}
+
+.block a:visited {
+    color: darkred;
+}
+
+
+
+.coffeeHamster{
+    margin-left: 40px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.7;
+}
+
+
+.cuppaJoe{
+    margin-left: 40px;
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.7;
+}

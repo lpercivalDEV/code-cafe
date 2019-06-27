@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>Code Cafe</title>
+     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="/messages" method="POST">
+      <section class="wrapper">
+
+          <div class="div1">
+              <h1>Code Cafe</h1>
+          </div>
+
+          <div class="div2">
+              <p>Barista Login  or  Signup:</p>
+              <a href="/login" class="btn" value=" "><span class="fa fa-user">  Login</span></a>
+              <a href="/signup" class="btn" value=" "><span class="fa fa-user">  Signup</span></a>
+          </div>
+
+          <h1 class="div3">
+              <span class="fa fa-coffee"> </span> Cashier Order Page
+          </h1>
+
+
+          <h2 class="div4">Drinks</h2>
+          <button class="div6 btn" value="Single Shot" type="button" name="1.00">Espresso - single</button>
+          <button class="div7 btn" value="Double Shot" type="button" name="1.00">Espresso - double</button>
+          <button class="div8 btn" value="Triple Shot" type="button" name="1.00">Espresso - triple</button>
+          <button class="div9 btn" value="Medium Roast" type="button" name="2.00">Medium Roast</button>
+          <button class="div10 btn" value="Dark Roast" type="button" name="2.00">Dark Roast</button>
+          <button class="div11 btn" value="Latte" type="button" name="3.00">Latte</button>
+          <button class="div12 btn" value="Capuccino" type="button" name="3.00">Capuccino</button>
+          <button class="div13 btn" value="Iced Coffee" type="button" name="3.00">Iced Coffee</button>
+          <button class="div14 btn" value="Tea" type="button" name="1.00">Tea</button>
+          <button class="div15 btn" value="+ add sugar" type="button" name="0.0">Add Sugar</button>
+          <button class="div16 btn" value="+ add cream" type="button" name="0.0">Add Cream</button>
+          <button class="div17 btn" value="+ black" type="button" name="0.0">Black (no sugar/cream)</button>
+
+         <h2 class="div5">Pastries</h2>
+          <button class="div18 btn" value="Muffin" type="button" name="2.00">Muffin</button>
+          <button class="div19 btn" value="Cinnamon Roll" type="button" name="2.00">Cinnamon Roll</button>
+          <button class="div20 btn" value="Apple Turnover" type="button" name="2.00">Apple Turnover</button>
+          <button class="div21 btn" value="Blueberry Scone" type="button" name="2.00">Blueberry Scone</button>
+          <button class="div22 btn" value="Cranberry Orange Scone" type="button" name="2.00">Cranberry Orange Scone</button>
+          <button class="div23 btn" value="Plain Bagel" type="button" name="1.00">Plain Bagel</button>
+          <button class="div24 btn" value="Sesame Bagel" type="button" name="1.00">Sesame Bagel</button>
+
+        <section class="div25">
+            <h3>Order Summary</h3>
+            <p class="summary"> </p>
+            <p>
+                Total: $ <span class="money" name="profit">0.00</span>
+            </p>
+        </section>
+
+            <input class="div26  custNames" type="text" placeholder="Enter Customer Name" value="" name="name">
+            <input id="order" class="div27" value="" type="text" placeholder="Order" name="msg">
+            <input class="hidden tally" type="text" name="profit" value="">
+            <button class="div28 submit" type="submit">Submit</button>
+
+
+      </form>
+  </section>
+    <script src="main.js"></script>
+
+</body>
+</html>

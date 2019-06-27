@@ -1,0 +1,153 @@
+/* background color */
+/* background-color:  #864C2D; */
+
+/* wrapper */
+/* background-color: rgba(255,255,255,0.5); */
+
+/* other btns */
+/*  */
+
+/* login/out btns */
+/*  background-color: rgba(126,66,42, 0.5);  */
+
+
+body{
+    background-color:  black;
+    color: black;
+    font-size: 28px;
+    word-wrap:break-word;
+    font-family: 'Cabin Sketch', cursive;
+}
+.container {
+    /* border-radius: 20px; */
+
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 0.1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.div1 {
+    grid-area: 1 / 2 / 2/ 5;
+    border-bottom: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    background-color: rgba(237,231,201,1);
+}
+.div2 {
+    grid-area: 2 / 2 / 3 / 3;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: rgba(225,214,195,1);
+}
+.div2 h4{
+    margin-top: 80px;
+}
+.div3 {
+    grid-area: 3 / 2 / 5 / 5;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(145,82,48,1);
+}
+.div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: rgba(225,214,195,1);
+    border-bottom: 1px solid black;
+}
+.div4 h3, .div4 p{
+    text-align: center;
+}
+.div5 {
+    grid-area: 2 / 4 / 3 / 5;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgba(225,214,195,1);
+}
+.div5 a{
+    margin-top: 36px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    background-color: rgba(126,66,42, 0.5);
+    color: black;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.warning{
+    background-color: #C3534B;
+    color: white;
+}
+
+.warning:hover{
+    background-color: red;
+    border: 3px solid orange;
+    font-size: 32px;
+}
+
+a:hover {
+    font-size: 32px;
+    color: black;
+    border: 2px solid orange;
+    background-color: #f5c043;
+}
+a:visited{
+    color: darkred;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.messages{
+    list-style: none;
+}
+
+.completed{
+    border-radius: 20px;
+    color: #69C350;
+    text-decoration: line-through;
+    font-size: 20px;
+    background-color: lightgreen;
+    width: 50%;
+    float: right;
+    clear: both;
+}
+
+.message{
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.name{
+    font-size: 28px;
+    color: #634021;
+    margin: 2%;
+}
+
+.order{
+    font-size: 24px;
+}
+
+li{
+    background-color: rgba(255,255,255, 0.7);
+    margin: 0.5%;
+    padding: 1%;
+}
+
+
+.hidden{
+    display: hidden;
+}
+
+.fa-check-circle{
+    font-size: 20px;
+}

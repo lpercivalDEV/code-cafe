@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>Barista</title>
+     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="barista.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <h1>
+                <span class="fa fa-coffee"></span>
+                Barista Order Tracker
+            </h1>
+        </div>
+
+        <!-- LOCAL INFORMATION -->
+        <div class="div4">
+            <h3><span class="fa fa-user"></span> Current User</h3>
+            <% if (user.local.email) { %>
+                <p>
+                    <!-- <strong>id</strong>: <%= user._id %><br> -->
+                    <strong>Barista</strong>: <%= user.local.email %><br>
+                    <!-- <strong>password</strong>: <%= user.local.password %> -->
+                </p>
+            <% } else { %>
+                <a href="/connect/local" class="btn">Connect Local</a>
+            <% } %>
+        </div>
+        <div class="div5">
+            <a href="/logout" class="btn">Logout</a>
+            <a href="/unlink/local" class="btn warning">Unlink</a>
+        </div>
+
+        <div class="div2">
+            <h4>Total Sales: $
+                <span class="sales">
+                    <% let sales= 0; %>
+                    <% let hold = 0; %>
+                    <% for(var i=0; i<messages.length; i++) {%>
+                        <%  hold += parseFloat(messages[i].profit)  %>
+                        <% sales = hold; %>
+                        <% } %>
+
+                            <% console.log(sales) %>
+                        <%= sales %>
+                </span>
+            </h4>
+        </div>
+
+        <div class="div3">
+            <h3 class="title">Orders</h3>
+          <ul class="messages">
+          <% for(var i=0; i<messages.length; i++) {%>
+            <li class="message">
+              <span class="name"><%= messages[i].name %></span>
+              <span class="order"><%= messages[i].msg %></span>
+              <span> <i class="fa fa-check-circle" aria-hidden="true"></i></span>
+            </li>
+          <% } %>
+          </ul>
+
+        </div>
+    </div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
